@@ -1,0 +1,96 @@
+/* Style for my The Complete Web Developer course */
+body {
+	font-family: "Tahoma", sens-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	padding: 20px 20%;
+	background-color: #E4F1FE;
+	height: 100%;
+}
+header {
+		text-align: center;
+}
+
+nav {
+	text-align: center;
+	padding-top: 40px;
+}
+nav li {
+	display: inline-block;
+	list-style: none;
+}
+nav a {
+	text-decoration: none;
+	padding: 16px 40px;
+	color: #013243;
+}
+nav a:hover {
+	border-radius: 4px;
+	padding: 16px 40px;
+	background-color: #013243;
+	color: #ffffff;
+}
+#register {
+	border-radius: 4px;
+	padding: 16px 40px;
+	border: 3px solid #013243;
+	color: #013243;
+}
+#register:hover {
+	color: #ffffff;
+}
+section {
+	padding-top: 40px; 
+}
+form {
+	width: 420px;
+}
+input[type=text], input[type=password],input[type=email], input[type=date] {
+    padding:5px; 
+    margin: 5px;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    border-radius: 4px;
+	padding: 16px 40px;
+	border: 3px solid #013243;
+	color: #013243;
+	font-size: 16px;
+	margin-right: 40px;
+}
+.buttons {
+	text-align: center;
+	padding-top: 20px;
+}
+blockquote {
+	font-style: italic;
+	font-size: 18px;
+	border-left: 4px solid #cccccc;
+	padding-left: 20px;
+	font-family: "Georgia", serif;
+	width: 60%;
+
+}
+img {
+	float: left;
+	padding-right: 20px;
+}
+.moto {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 26px;
+}
+footer {
+   font-size: 10px;
+   vertical-align: bottom;
+   height:30px;
+   text-align:right;
+   padding: 40px 0;
+}

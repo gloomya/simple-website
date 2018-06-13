@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login – My website for The Complete Web Developer course.</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>[ Welcome to HTML & CSS ]</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html" id="register">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Login</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<form method="GET">
+		Email: <input type="email" name="email"><br>
+		<!-- Updated min to minlength (min is used only for range inputs. Visit here for more info: https://www.w3schools.com/tags/att_input_maxlength.asp) -->
+		Password: <input type="password" name="password" minLength="5"><br>
+		<div class="buttons">
+			<input type="submit" value="Sign In">
+			<input type="button" value="Register" onclick="window.location.href='register.html'">
+		</div>
+	</form>
+	</section>
+	<footer>
+		<p>The Complete Web Developer in 2018: Zero to Mastery 2018 &copy gloomya</p>
+	</footer>
+</body>
+</html>
